@@ -10,7 +10,7 @@ namespace DuplicateLetters
             Working work = new Working();
 
             Console.WriteLine(work.DuplicateCount("abcde"));
-            Console.WriteLine(work.DuplicateCount("abbcde"));
+            Console.WriteLine(work.DuplicateCount("aabbcde"));
             Console.WriteLine(work.DuplicateCount("Indivisibilities"));
             Console.WriteLine(work.DuplicateCount("Aa"));
         }
